@@ -13,9 +13,3 @@ jobs:
       - uses: DarekRepos/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.plugin.stackoverflow.svg
-          base: ""
-          plugin_stackoverflow: yes
-          plugin_stackoverflow_user: 7697951
-          plugin_stackoverflow_sections: answers-top, questions-top
-          plugin_stackoverflow_limit: 2
