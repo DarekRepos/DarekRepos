@@ -22,6 +22,7 @@ jobs:
       - uses: DarekRepos/metrics@master
         with:
           filename: metrics.plugin.stackoverflow.svg
+          token: NOT_NEEDED
           base: ""
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 7697951
