@@ -10,17 +10,6 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-        #set metrics with stackoverflow plugin 
-      - uses: DarekRepos/metrics@master
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.plugin.stackoverflow.svg
-          base: ""
-          plugin_stackoverflow: yes
-          plugin_stackoverflow_user: 7697951
-          plugin_stackoverflow_sections: answers-top, questions-top
-          plugin_stackoverflow_limit: 2          
-          
         #set metrics - base app- classic template     
       - uses: DarekRepos/metrics@master
         with:
@@ -28,6 +17,16 @@ jobs:
          token: ${{ secrets.METRICS_TOKEN }}
          base: header, repositories
          plugin_lines: yes
+         
+        #set metrics with stackoverflow plugin 
+      - uses: DarekRepos/metrics@master
+        with:
+          filename: metrics.plugin.stackoverflow.svg
+          base: ""
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_user: 7697951
+          plugin_stackoverflow_sections: answers-top, questions-top
+          plugin_stackoverflow_limit: 2          
                     
         # set most used language 
       - uses: DarekRepos/metrics@master
@@ -43,6 +42,8 @@ jobs:
         # set recently used language 
       - uses: DarekRepos/metrics@master
         with:
+         filename: metrics.plugin.languages.recent.svg
+         token: ${{ secrets.METRICS_TOKEN }}
          plugin_languages: yes
          plugin_languages_sections: recently-used
          plugin_languages_recent_load: 400
