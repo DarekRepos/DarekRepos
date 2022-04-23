@@ -10,7 +10,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-        #set metrics - base app  with stackoverflow plugin 
+        #set metrics with stackoverflow plugin 
       - uses: DarekRepos/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -21,8 +21,8 @@ jobs:
           plugin_stackoverflow_sections: answers-top, questions-top
           plugin_stackoverflow_limit: 2          
           
-        #set metrics with stackoverflow plugin         
-      - uses: lowlighter/metrics@latest
+        #set metrics - base app- classic template     
+      - uses: DarekRepos/metrics@master
         with:
          filename: metrics.classic.svg
          token: ${{ secrets.METRICS_TOKEN }}
