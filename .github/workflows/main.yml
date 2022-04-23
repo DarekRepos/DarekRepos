@@ -45,6 +45,7 @@ jobs:
         with:
          filename: metrics.plugin.languages.recent.svg
          token: ${{ secrets.METRICS_TOKEN }}
+         base: ""
          plugin_languages: yes
          plugin_languages_sections: recently-used
          plugin_languages_recent_load: 400
