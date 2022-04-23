@@ -2,7 +2,7 @@
 
 Thanks for checking my repos out. I hope you find something useful.
 
-![Metrics](/metrics-classic.svg)
+![Metrics](/metrics.classic.svg)
 
 ![Metrics](/metrics.plugin.languages.svg)
 
