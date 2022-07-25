@@ -6,8 +6,6 @@ Thanks for checking my repos out. I hope you find something useful.
 
 ![Metrics](/metrics.plugin.languages.svg)
 
-![Metrics](/metrics.plugin.languages.recent.svg)
-
 ![Metrics](/metrics.plugin.stackoverflow.svg)
 
 In the meantime check out my latest post: [DarekRepos.github.io](https://DarekRepos.github.io) 🚀
