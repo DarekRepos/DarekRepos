@@ -3,9 +3,9 @@
 Thanks for checking my repos out. I hope you find something useful.
 (Statistic only include main/master branches)
 
-![Metrics](/metrics.classic.svg)
+![DarekRepos's GitHub stats](https://github-readme-stats.vercel.app/api?username=DarekRepos&show_icons=true&bg_color=00000000)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=DarekRepos&show_icons=true&bg_color=00000000)
+![Metrics](/metrics.classic.svg)
 
 ![Metrics](/metrics.plugin.languages.svg)
 
