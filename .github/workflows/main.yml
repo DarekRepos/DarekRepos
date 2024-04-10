@@ -16,18 +16,7 @@ jobs:
          filename: metrics.classic.svg
          token: ${{ secrets.METRICS_TOKEN }}
          base: header, repositories
-         plugin_lines: yes
-         
-        #set metrics with stackoverflow plugin 
-      - uses: DarekRepos/metrics@master
-        with:
-          filename: metrics.plugin.stackoverflow.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_stackoverflow: yes
-          plugin_stackoverflow_user: 7697951
-          plugin_stackoverflow_sections: answers-top, questions-top
-          plugin_stackoverflow_limit: 2          
+         plugin_lines: yes       
                     
         # set most used language 
       - uses: DarekRepos/metrics@master
