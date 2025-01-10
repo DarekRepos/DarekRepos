@@ -26,7 +26,7 @@ jobs:
          base: ""
          plugin_languages: yes
          plugin_languages_ignored: >-
-           html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, hack
+           html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, hack, mdx
          plugin_languages_limit: 8
 
         # set recently used language 
